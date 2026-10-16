@@ -15,7 +15,7 @@
   <img alt="Reproducible" src="https://img.shields.io/badge/results-fully%20reproducible-D63F8C">
 </p>
 
-<h3 align="center">DataVizPro: an integrated no-code cloud platform for publication-ready visualisation in crop science, from field trials to genomics</h3>
+<h3 align="center">DataVizPro: an integrated no-code cloud platform for publication-ready visualization in crop science, from field trials to genomics</h3>
 <p align="center"><b>Waseem Hussain</b> · PlantNura Consulting &amp; Solutions, Hyderabad, India · <a href="https://orcid.org/0000-0002-6861-0193">ORCID</a></p>
 
 ---
@@ -102,7 +102,7 @@ The data are the panel of Zhao et al. (2011): 413 accessions and 36,901 SNPs, of
 
 - **Population structure.** Genotypic PC1 and PC2 explain 36.5 % and 10.4 % of the variance. sNMF cross-entropy falls steeply up to *K* = 4 with no clear minimum. At *K* = 5, 361 accessions (87 %) have a dominant ancestry coefficient ≥ 0.7. They form five groups (G1–G5: 14, 102, 86, 58 and 101 accessions), and 52 accessions are admixed.
 - **Kinship.** The mean VanRaden relationship is 1.14 within groups and −0.36 between groups.
-- **LD decay.** The fitted Hill–Weir curve falls to half its initial value at 636 kb in G2 and 921 kb in G5.
+- **LD decay.** The fitted Hill–Weir curve falls to half its initial value at 636 kb in G2 and 921 kb in G5 (pairs up to 1 Mb; the app figure in the paper uses pairs up to 500 kb, giving about 600 kb and 1.17 Mb).
 - **GWAS** (rrBLUP mixed model, kinship + 3 PCs). For **seed length**, 36 SNPs on 9 chromosomes pass the Bonferroni threshold. One of the strongest signals lies at ***GS3*** (chromosome 3, 16.73 Mb). For **flowering time** (Arkansas), one SNP on chromosome 6 (9.65 Mb) passes, about 0.3 Mb from ***Hd1***. Inflation factors are λ = 0.93 and 0.85.
 
 <p align="center">
@@ -225,7 +225,7 @@ If you use DataVizPro, these scripts or the results, please cite:
 @article{hussain2026datavizpro,
   author  = {Hussain, Waseem},
   title   = {{DataVizPro}: an integrated no-code cloud platform for publication-ready
-             visualisation in crop science, from field trials to genomics},
+             visualization in crop science, from field trials to genomics},
   journal = {Computers and Electronics in Agriculture},
   year    = {2026},
   note    = {Submitted}
