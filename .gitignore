@@ -1,0 +1,18 @@
+# Large / regenerated objects
+results/intermediate/
+*.rds
+*.bed
+*.bim
+*.fam.bak
+*.Q
+*.P
+data/rice/sativas413.ped
+# R / OS / editor
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+.DS_Store
+~$*
+__pycache__/
+_to_delete/

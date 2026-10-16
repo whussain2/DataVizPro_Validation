@@ -1,0 +1,4 @@
+"step","accessions","snps"
+"Raw",413,36901
+"After QC",413,32644
+"Ancestry subset",413,10000

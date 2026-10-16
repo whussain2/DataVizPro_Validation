@@ -1,0 +1,19 @@
+"statistic","value"
+"Correlation of yield with row position",-0.2122
+"Correlation of yield with bed position",0.1435
+"Spatial variance share (%)",38.22
+"Deviance explained (%)",86.69
+"Delta AIC (no spatial - spatial)",408.4
+"P-spline basis (k x k)",10
+"Moran's I, design residuals",0.2548
+"Moran's I z, design residuals",8.592
+"Moran's I P, design residuals",8.526e-18
+"Moran's I, design + spatial residuals",0.0369
+"Moran's I P, design + spatial residuals",0.1945
+"LISA significant plots (FDR 0.05), design",1
+"LISA significant plots (FDR 0.05), design + spatial",0
+"Semivariogram nugget",0.04616
+"Semivariogram partial sill",0.02123
+"Semivariogram range (plots)",10.07
+"Spearman raw vs adjusted genotype means",0.8625
+"Top-10% genotypes retained (of 27)",13

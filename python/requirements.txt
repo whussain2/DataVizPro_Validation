@@ -1,0 +1,5 @@
+fastmixture==1.3.0
+bed-reader
+statsmodels==0.15.0
+pandas
+numpy

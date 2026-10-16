@@ -1,0 +1,12 @@
+"statistic","value"
+"Accessions with complete records",359
+"Trait pairs",153
+"Pairs significant (BH 0.05)",109
+"PC1 variance (%)",25.286
+"PC2 variance (%)",19.502
+"R2 of PC1 on ancestry group",0.319
+"R2 of PC2 on ancestry group",0.426
+"Trait clusters",5
+"Trait cophenetic correlation",0.818
+"Accession clusters",2
+"Accession cophenetic correlation",0.403
