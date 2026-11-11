@@ -6,21 +6,26 @@ authors:
   - family-names: Hussain
     given-names: Waseem
     orcid: "https://orcid.org/0000-0002-6861-0193"
-    affiliation: "PlantNura Consulting & Solutions, Hyderabad, India"
+    affiliation: "PlantNura Consulting & Solutions LLP, Hyderabad, India"
     email: waseemhussain@plantnura.com
-version: "1.1.1"
-date-released: "2026-10-16"
+  - family-names: Nandigam
+    given-names: Vinay Kumar
+    affiliation: "PlantNura Consulting & Solutions LLP, Hyderabad, India"
+version: "1.2.0"
+date-released: "2026-11-11"
 license: MIT
 repository-code: "https://github.com/whussain2/DataVizPro_Validation"
 url: "https://plantnura.com/tools/datavizpro.html"
-keywords: [data visualisation, plant breeding, genomics, no-code software, field trials, reproducibility]
+keywords: [AI agent, data visualisation, plant breeding, genomics, no-code software, field trials, reproducibility]
 preferred-citation:
   type: article
-  title: "DataVizPro: an integrated no-code cloud platform for publication-ready visualization in crop science, from field trials to genomics"
+  title: "DataVizPro: an AI-assisted, no-code platform for visualization of crop phenotypic and genomic data"
   authors:
     - family-names: Hussain
       given-names: Waseem
       orcid: "https://orcid.org/0000-0002-6861-0193"
-  journal: "Computers and Electronics in Agriculture"
+    - family-names: Nandigam
+      given-names: Vinay Kumar
+  journal: "Molecular Plant"
   year: 2026
   status: submitted

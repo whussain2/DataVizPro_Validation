@@ -1,5 +1,6 @@
 # Large / regenerated objects
 results/intermediate/
+results/haploview/
 *.rds
 *.bed
 *.bim
