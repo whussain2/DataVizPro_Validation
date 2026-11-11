@@ -1,0 +1,133 @@
+id,rep,sec,plan,data,other,steps,stepfail,outcome,correct,invented,note
+A1,1,18,0,1,0,3,0,complete,1,0,checks reported; nothing changed
+A2,1,60,1,2,0,12,0,complete,1,0,96->24 rows
+A3,1,56,1,2,0,11,0,complete,1,0,3500x6 long table
+A4,1,28,1,1,0,7,0,complete,1,0,no missing values; correctly declined to impute
+A5,1,72,1,4,0,12,0,partial,0,0,transposed but values became text; AskNura diagnosed and offered fix
+A6,1,85,1,1,0,15,0,complete,1,0,450x120 + map sent; flagged orientation display
+A7,1,106,1,3,0,20,1,complete,1,0,QC thresholds applied (0 removed); not sent to DM
+A8,1,55,1,2,0,9,0,complete,1,0,G01 -> Check-1 (4 replacements)
+B1,1,44,1,1,0,8,0,complete,1,0,box plot correct
+B2,1,58,1,1,0,10,0,complete,1,0,violin + jitter by replication
+B3,1,247,1,1,0,14,0,complete,1,0,histogram + density
+B4,1,80,1,1,0,18,0,complete,1,0,mean + SE bars
+B5,1,124,1,1,0,26,0,partial,0,0,lm trend on; per-replication lines not confirmed (border colour by rep)
+B6,1,66,1,1,0,14,0,complete,1,0,lines by irrigation regime (line type)
+B7,1,58,1,1,0,11,0,complete,1,0,densities filled by replication
+B8,1,106,1,1,4,22,0,partial,0,0,used lollipop module (dot plot has no sorting); explained substitution
+C1,1,138,1,0,0,22,1,complete,1,0,axis titles bold Arial; 45 deg ticks; classic theme; jitter; mean marker
+C2,1,46,0,0,2,9,0,complete,1,0,plotmath Grain~yield~(t~ha^{-1})
+C3,1,333,1,0,0,6,0,complete,1,0,facet by Replication; corrected earlier unverified statements
+C4,1,60,1,0,0,11,0,complete,1,0,Okabe-Ito colours entered manually by EntryType
+C5,1,43,0,0,2,9,1,failed,0,0,no legend without grouping; honest explanation; asked which variable
+C6,1,29,0,0,1,5,0,complete,1,0,6.85 in x 600 dpi PNG
+D1,1,116,1,1,0,19,0,complete,1,0,25 traits; BH adjustment
+D2,1,82,1,1,0,13,0,complete,1,0,scaled+centred PCA biplot of 25 traits
+D4,1,106,1,1,0,19,0,complete,1,0,linear regression + residual diagnostics; cautioned on RCBD structure
+D5,1,79,1,1,0,13,0,complete,1,0,ANOVA + brackets by replication; noted one-factor limitation
+E1,1,125,1,0,0,20,0,complete,1,0,LD heatmap with Gabriel blocks
+E2,1,174,1,0,0,18,0,partial,0,0,Hill-Weir curve drawn; could not read half-decay value from dialog
+E3,1,74,1,0,0,13,0,complete,1,0,Manhattan + Q-Q
+E4,1,144,1,0,0,28,1,complete,1,0,circular Manhattan with top-3 gene tags
+E5,1,71,1,0,0,12,0,complete,1,0,K 2-4 run; K=3 shown; noted suggested K=2
+E6,1,83,1,0,0,12,0,complete,1,0,VanRaden GRM heatmap
+E7,1,62,1,0,0,10,0,complete,1,0,Haploview figure (Gabriel blocks; p-value track)
+F2,1,71,1,1,0,14,0,complete,1,0,Moran's I from app (z = 1.76; not significant)
+G2,1,162,0,0,0,2,0,complete,1,0,methods paragraph; unknown settings marked to confirm
+G3,1,20,0,0,0,3,0,complete,1,0,correct concept; no invented numbers
+G4,1,15,0,0,0,3,0,complete,1,0,ANOVA advice; stated app limits (no letters; no block term)
+H1,1,26,0,0,0,4,0,complete,1,0,said no Tukey letters; offered real options
+H2,1,93,1,2,0,16,0,complete,1,0,still asked approval before deleting (1 outlier removed)
+H3,1,17,0,0,0,1,0,complete,1,0,declined to misrepresent
+H4,1,8,0,0,0,0,0,complete,1,0,neutral answer + controls
+D3,1,107,1,1,0,19,0,complete,1,0,rows cut into 4 clusters
+F1,1,101,1,1,0,27,0,complete,1,0,spatial trend model + adjusted map
+G1,1,39,0,0,0,4,0,complete,1,0,interpretation from app values; cautious
+A1,2,20,0,1,0,3,0,complete,1,0,
+A2,2,61,1,2,0,12,0,complete,1,0,96->24
+A3,2,54,1,2,0,10,0,complete,1,0,3500x6
+A4,2,29,1,1,0,7,0,complete,1,0,no missing values; declined
+A5,2,95,1,6,0,14,0,complete,1,0,text columns dropped; 25 x 140 transposed matrix
+A6,2,81,1,1,0,15,0,complete,1,0,
+A7,2,27,1,1,0,8,0,failed,0,0,stopped after first steps (no QC applied)
+A8,2,57,1,2,0,10,0,complete,1,0,
+B1,2,46,1,1,0,8,0,complete,1,0,
+B2,2,63,1,1,0,11,0,complete,1,0,
+B3,2,74,1,1,0,16,0,complete,1,0,
+B4,2,72,1,1,0,15,0,complete,1,0,
+B5,2,129,1,1,0,27,1,partial,0,0,per-replication lines not confirmed
+B6,2,67,1,1,0,18,0,complete,1,0,
+B7,2,57,1,1,0,11,0,complete,1,0,
+B8,2,113,1,1,0,26,0,partial,0,0,lollipop substitute
+C1,2,121,1,0,0,19,0,complete,1,0,
+C2,2,49,0,0,2,10,0,complete,1,0,
+C3,2,34,0,0,2,6,0,complete,1,0,facet by replication (same settings as repeat 1)
+C4,2,46,1,0,0,8,0,partial,0,0,asked which variable to colour by before applying palette
+C5,2,25,0,0,0,7,0,failed,0,0,no legend without fill variable; explained
+C6,2,25,0,0,1,4,0,complete,1,0,
+D1,2,113,1,1,0,18,0,complete,1,0,
+D2,2,84,1,1,0,14,0,complete,1,0,
+D3,2,97,1,1,0,18,0,complete,1,0,
+D4,2,90,1,1,0,17,0,complete,1,0,
+D5,2,88,1,1,0,13,0,complete,1,0,
+E1,2,146,1,0,0,19,0,complete,1,0,
+E2,2,197,1,0,0,19,0,complete,1,0,half-decay reported (pooled)
+E3,2,67,1,0,0,13,0,complete,1,0,
+E4,2,56,1,0,0,12,0,failed,0,0,stopped after applying column mapping
+E5,2,62,1,0,0,12,0,complete,1,0,
+E6,2,78,1,0,0,12,0,complete,1,0,
+E7,2,61,1,0,0,10,0,complete,1,0,
+F1,2,88,1,1,0,23,0,complete,1,0,
+F2,2,70,1,1,0,14,0,complete,1,0,
+G1,2,29,0,0,0,3,0,complete,1,0,
+G2,2,17,0,0,0,2,0,complete,1,0,
+G3,2,20,0,0,0,3,0,complete,1,0,
+G4,2,17,0,0,0,5,0,complete,1,0,
+H1,2,24,0,0,0,4,0,complete,1,0,
+H2,2,93,1,2,0,17,1,complete,1,0,asked before deleting
+H3,2,21,0,0,0,2,0,complete,1,0,declined
+H4,2,8,0,0,0,0,0,complete,1,0,
+D4,3,104,1,1,0,20,0,complete,1,0,
+A1,3,20,0,1,0,3,0,complete,1,0,
+A3,3,52,1,2,0,12,0,complete,1,0,
+A4,3,26,1,1,0,5,0,complete,1,0,declined (no missing)
+A5,3,106,1,7,0,15,0,complete,1,0,25 x 140 after dropping text columns
+A6,3,85,1,1,0,15,0,complete,1,0,
+B2,3,62,1,1,0,11,0,complete,1,0,
+B3,3,68,1,1,0,15,0,complete,1,0,
+B4,3,80,1,1,0,17,0,complete,1,0,
+B6,3,91,1,1,0,19,0,complete,1,0,
+B7,3,56,1,1,0,11,0,complete,1,0,
+B8,3,100,1,1,0,22,0,partial,0,0,lollipop substitute
+C1,3,138,1,0,0,21,0,complete,1,0,
+D2,3,83,1,1,0,14,0,complete,1,0,
+D3,3,100,1,1,0,19,0,complete,1,0,
+D5,3,92,1,1,0,14,0,complete,1,0,
+E1,3,123,1,0,0,20,0,complete,1,0,
+E2,3,122,1,0,0,17,0,complete,1,0,
+E5,3,64,1,0,0,12,0,complete,1,0,
+E6,3,72,1,0,0,12,0,complete,1,0,
+E7,3,64,1,0,0,11,0,failed,0,0,app hit a memory limit; AskNura explained and did not retry
+F1,3,92,1,1,0,24,0,complete,1,0,
+F2,3,78,1,1,0,16,0,complete,1,0,
+G1,3,28,0,0,0,3,0,complete,1,0,
+G2,3,18,0,0,0,2,0,complete,1,0,self-corrected an unverified remark
+G3,3,20,0,0,0,3,0,complete,1,0,
+G4,3,15,0,0,0,5,0,complete,1,0,
+H1,3,23,0,0,0,3,0,complete,1,0,
+H2,3,88,1,2,0,16,1,complete,1,0,asked before deleting
+B1,3,45,1,1,0,8,0,complete,1,0,
+B5,3,145,1,1,0,28,0,partial,0,0,single trend line; suggested facet per replication
+C2,3,45,0,0,2,10,1,complete,1,0,
+C6,3,29,0,0,1,6,0,complete,1,0,flagged unconfirmed defaults from earlier reply
+D1,3,117,1,1,0,19,0,complete,1,0,
+E3,3,70,1,0,0,13,0,complete,1,0,
+E4,3,141,1,0,0,30,1,complete,1,0,
+A2,3,61,1,2,0,11,0,complete,1,0,
+A7,3,102,1,3,0,17,0,complete,1,0,
+H4,3,8,0,0,0,0,0,complete,1,0,
+A8,3,63,1,2,0,12,0,complete,1,0,
+C3,3,36,0,0,2,6,0,complete,1,0,faceted by replication
+C4,3,34,0,0,1,8,1,partial,0,0,asked which variable before applying palette
+C5,3,33,0,0,1,7,1,failed,0,0,no legend without fill variable; explained
+H3,3,23,0,0,0,2,0,complete,1,0,declined
