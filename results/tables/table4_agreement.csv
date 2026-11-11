@@ -9,3 +9,5 @@
 "LD decay fit (half-decay distance)","Independent least-squares Hill-Weir fit","Rice 44K, 2 ancestry groups",2,NA,0.0001167,"difference in kb"
 "PCA scores","prcomp (base R)","Rice phenotypes (359 x 18)",1795,1,0.00865,"differences only from 1/n vs 1/(n-1) standardisation"
 "Regression coefficients","statsmodels 0.15 (OLS, logistic)","Rice phenotypes",8,1,7.621e-12,"linear and logistic models"
+"HaploView D', r2, LOD and D' interval","Haploview 4.2","747 lines x 1,279 markers, one chromosome (max. distance 500 kb)",817281,NA,NA,"all values within Haploview's printed rounding"
+"HaploView haplotype blocks","Haploview 4.2 (default settings)","same",874,NA,NA,"identical: Gabriel 184/184, solid spine 361/361, four-gamete 329/329"
