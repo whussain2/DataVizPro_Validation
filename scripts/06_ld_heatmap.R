@@ -1,5 +1,5 @@
 # ==============================================================================
-# 06_ld_heatmap.R - pairwise LD r2 and D' (Table 4)
+# 06_ld_heatmap.R - pairwise LD r2 and D' (Supplemental Table 4)
 # DataVizPro LD heatmap module (ld_compute) versus snpStats (EM haplotype estimates)
 # and the squared genotype correlation (the PLINK --r2 definition)
 # 500 consecutive QC'd markers on chromosome 1

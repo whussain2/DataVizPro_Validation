@@ -1,5 +1,5 @@
 # ==============================================================================
-# 07_ld_decay.R - LD decay in the two largest ancestry groups (Table 4, Section 3.6)
+# 07_ld_decay.R - LD decay in the two largest ancestry groups (Supplemental Table 4, Figure 6)
 # DataVizPro LD decay module versus an independent least-squares Hill-Weir fit
 # ==============================================================================
 source("scripts/00_setup.R")

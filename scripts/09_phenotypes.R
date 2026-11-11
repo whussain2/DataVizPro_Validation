@@ -1,5 +1,5 @@
 # ==============================================================================
-# 09_phenotypes.R - Case study 3 (Section 3.7) and the PCA / regression rows of Table 4
+# 09_phenotypes.R - Case study 3 (Supplemental Figure 5) and the PCA / regression rows of Supplemental Table 4
 # 18 traits of the rice diversity panel (Zhao et al. 2011)
 # ==============================================================================
 source("scripts/00_setup.R")

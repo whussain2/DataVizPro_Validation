@@ -1,5 +1,5 @@
 # ==============================================================================
-# 01_barley_spatial.R - Case study 1 (Section 3.5) and the SpATS row of Table 4
+# 01_barley_spatial.R - Case study 1 (Figure 5) and the SpATS row of Supplemental Table 4
 # Data: barley row-column trial of Durban et al. (2003), 272 genotypes x 2 reps,
 #       544 plots on a 16 x 34 grid (agridat::durban.rowcol)
 # ==============================================================================

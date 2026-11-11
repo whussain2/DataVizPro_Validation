@@ -1,5 +1,5 @@
 # ==============================================================================
-# 05_genotype_pca.R - genotypic principal components (Section 3.6)
+# 05_genotype_pca.R - genotypic principal components (Figure 6C)
 # ==============================================================================
 source("scripts/00_setup.R")
 prep <- readRDS(file.path(TMP_DIR, "prep_all.rds"))

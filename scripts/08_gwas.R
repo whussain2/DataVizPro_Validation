@@ -1,5 +1,5 @@
 # ==============================================================================
-# 08_gwas.R - GWAS summary statistics visualised in Fig. 6F (Section 3.6)
+# 08_gwas.R - GWAS summary statistics visualised in Figure 6F
 # Computed externally, as in the manuscript: rrBLUP mixed model (P3D), genomic
 # relationship matrix + 3 principal components, MAF >= 0.05, Bonferroni alpha = 0.05
 # ==============================================================================

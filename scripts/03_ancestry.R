@@ -1,5 +1,5 @@
 # ==============================================================================
-# 03_ancestry.R - ancestry coefficients at K = 5 (Table 4, Section 3.6)
+# 03_ancestry.R - ancestry coefficients at K = 5 (Supplemental Table 4, Figure 6)
 # DataVizPro engines: block-wise EM admixture (5 runs) and sNMF via LEA (K = 1..8)
 # Reference: fastmixture 1.3 (ADMIXTURE model) - run python/references.py fastmixture
 # ==============================================================================

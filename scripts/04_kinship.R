@@ -1,5 +1,5 @@
 # ==============================================================================
-# 04_kinship.R - VanRaden (2008) genomic relationship matrix (Table 4, Section 3.6)
+# 04_kinship.R - VanRaden (2008) genomic relationship matrix (Supplemental Table 4, Figure 6)
 # DataVizPro: gh_kinship(); references: the published formula and rrBLUP::A.mat
 # ==============================================================================
 source("scripts/00_setup.R")
