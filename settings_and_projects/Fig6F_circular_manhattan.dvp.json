@@ -1,0 +1,504 @@
+{
+ "steps": [
+  {
+   "set": [],
+   "click": "upload_new_data"
+  },
+  {
+   "set": [],
+   "click": "gwas_open_config"
+  },
+  {
+   "set": [
+    {
+     "id": "cfg_chr",
+     "value": "CHR"
+    },
+    {
+     "id": "cfg_bp",
+     "value": "BP"
+    },
+    {
+     "id": "cfg_p",
+     "value": "P"
+    },
+    {
+     "id": "cfg_logp",
+     "value": "__none__"
+    },
+    {
+     "id": "cfg_snp",
+     "value": "SNP"
+    },
+    {
+     "id": "cfg_trait",
+     "value": "trait"
+    },
+    {
+     "id": "cfg_pve",
+     "value": "__auto__"
+    },
+    {
+     "id": "cfg_ld",
+     "value": "__auto__"
+    },
+    {
+     "id": "cfg_gene",
+     "value": "gene"
+    },
+    {
+     "id": "cfg_custom_col",
+     "value": "__none__"
+    },
+    {
+     "id": "cfg_custom_name",
+     "value": ""
+    }
+   ],
+   "click": "gwas_apply_config"
+  },
+  {
+   "set": [
+    {
+     "id": "gwas_view_mode",
+     "value": "circular"
+    }
+   ],
+   "click": "gwas_generate"
+  },
+  {
+   "set": [
+    {
+     "id": "gwas_circ_tracks_sel",
+     "value": [
+      "gene"
+     ]
+    },
+    {
+     "id": "gwas_traits_sel",
+     "value": [
+      "Flowering time",
+      "Seed length"
+     ]
+    },
+    {
+     "id": "gwas_export_width",
+     "value": 16
+    },
+    {
+     "id": "gwas_export_height",
+     "value": 12.5
+    }
+   ],
+   "click": "gwas_circ_tracks_apply"
+  },
+  {
+   "set": [],
+   "click": "action_labels"
+  },
+  {
+   "set": [
+    {
+     "id": "lb_title",
+     "value": true
+    },
+    {
+     "id": "lb_circ",
+     "value": false
+    },
+    {
+     "id": "lb_traits",
+     "value": false
+    },
+    {
+     "id": "lb_tracklabels",
+     "value": false
+    },
+    {
+     "id": "lb_titlecol",
+     "value": "#0F172A"
+    },
+    {
+     "id": "lb_titleface",
+     "value": "bold"
+    },
+    {
+     "id": "lb_titlehj",
+     "value": "0.5"
+    },
+    {
+     "id": "lb_titlesize",
+     "value": 8
+    },
+    {
+     "id": "lb_titlegap",
+     "value": 0.02
+    },
+    {
+     "id": "lb_sub_show",
+     "value": false
+    },
+    {
+     "id": "lb_titletxt",
+     "value": " "
+    },
+    {
+     "id": "lb_subcol",
+     "value": "#475569"
+    },
+    {
+     "id": "lb_subface",
+     "value": "italic"
+    },
+    {
+     "id": "lb_subhj",
+     "value": "0.5"
+    },
+    {
+     "id": "lb_subsize",
+     "value": 12
+    },
+    {
+     "id": "lb_subtxt",
+     "value": ""
+    }
+   ],
+   "click": "apply_lb_title"
+  },
+  {
+   "set": [
+    {
+     "id": "lb_circ",
+     "value": true
+    },
+    {
+     "id": "lb_chrcol",
+     "value": "#0F172A"
+    },
+    {
+     "id": "lb_chrfam",
+     "value": "sans"
+    },
+    {
+     "id": "lb_chrface",
+     "value": "bold"
+    },
+    {
+     "id": "lb_chrorient",
+     "value": "horizontal"
+    },
+    {
+     "id": "lb_chrsize",
+     "value": 2.6
+    },
+    {
+     "id": "lb_chrgap",
+     "value": 0.035
+    },
+    {
+     "id": "lb_chron",
+     "value": true
+    },
+    {
+     "id": "lb_cname_1",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_2",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_3",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_4",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_5",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_6",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_7",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_8",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_9",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_10",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_11",
+     "value": ""
+    },
+    {
+     "id": "lb_cname_12",
+     "value": ""
+    }
+   ],
+   "click": "apply_lb_circ"
+  },
+  {
+   "set": [
+    {
+     "id": "lb_traits",
+     "value": true
+    },
+    {
+     "id": "lb_rocol",
+     "value": "#0F172A"
+    },
+    {
+     "id": "lb_rofam",
+     "value": "sans"
+    },
+    {
+     "id": "lb_roface",
+     "value": "bold"
+    },
+    {
+     "id": "lb_rosize",
+     "value": 2.3
+    },
+    {
+     "id": "lb_roangle",
+     "value": 0
+    },
+    {
+     "id": "lb_ropos",
+     "value": 0.5
+    },
+    {
+     "id": "lb_ronon",
+     "value": true
+    },
+    {
+     "id": "lb_rname_1",
+     "value": ""
+    },
+    {
+     "id": "lb_rname_2",
+     "value": ""
+    }
+   ],
+   "click": "apply_lb_traits"
+  },
+  {
+   "set": [],
+   "click": "action_axistext"
+  },
+  {
+   "set": [
+    {
+     "id": "ax_x",
+     "value": false
+    },
+    {
+     "id": "ax_y",
+     "value": false
+    },
+    {
+     "id": "ax_cbase",
+     "value": false
+    },
+    {
+     "id": "ax_scale",
+     "value": true
+    },
+    {
+     "id": "ax_scale_gap",
+     "value": 7
+    },
+    {
+     "id": "ax_scale_ticks",
+     "value": 4
+    },
+    {
+     "id": "ax_scale_on",
+     "value": false
+    },
+    {
+     "id": "ax_scale_axis",
+     "value": true
+    }
+   ],
+   "click": "apply_ax_scale"
+  },
+  {
+   "set": [],
+   "click": "action_colors_grouping"
+  },
+  {
+   "set": [
+    {
+     "id": "cg_mtrack",
+     "value": false
+    },
+    {
+     "id": "cg_hlsnp",
+     "value": false
+    },
+    {
+     "id": "cg_ideo",
+     "value": true
+    },
+    {
+     "id": "cg_ideopal",
+     "value": "rainbow"
+    },
+    {
+     "id": "cg_ideoborder",
+     "value": false
+    },
+    {
+     "id": "cg_snprug",
+     "value": true
+    },
+    {
+     "id": "cg_ruler",
+     "value": true
+    },
+    {
+     "id": "cg_snpcol",
+     "value": "#1E293B"
+    },
+    {
+     "id": "cg_snpalpha",
+     "value": 0.55
+    },
+    {
+     "id": "cg_snpw",
+     "value": 0.25
+    },
+    {
+     "id": "cg_rulerstep",
+     "value": 0
+    },
+    {
+     "id": "cg_rulerlab",
+     "value": false
+    }
+   ],
+   "click": "apply_cg_ideo"
+  },
+  {
+   "set": [],
+   "click": "action_appearance"
+  },
+  {
+   "set": [
+    {
+     "id": "ap_crings",
+     "value": true
+    },
+    {
+     "id": "ap_ccentre",
+     "value": false
+    },
+    {
+     "id": "ap_cideo",
+     "value": false
+    },
+    {
+     "id": "ax_thr",
+     "value": false
+    },
+    {
+     "id": "ap_cpsize",
+     "value": 0.6
+    },
+    {
+     "id": "ap_cpalpha",
+     "value": 0.9
+    },
+    {
+     "id": "ap_cwidth",
+     "value": 0.13
+    },
+    {
+     "id": "ap_cgap",
+     "value": 0.03
+    },
+    {
+     "id": "ap_ringsep",
+     "value": true
+    },
+    {
+     "id": "ap_csep",
+     "value": true
+    },
+    {
+     "id": "ap_ringsepcol",
+     "value": "#FFFFFF"
+    },
+    {
+     "id": "ap_ringsepbord",
+     "value": "#CBD5E1"
+    },
+    {
+     "id": "ap_ringsepw",
+     "value": 0.55
+    },
+    {
+     "id": "ap_ringsepa",
+     "value": 1
+    },
+    {
+     "id": "ap_csepcol",
+     "value": "#CBD5E1"
+    },
+    {
+     "id": "ap_cseptype",
+     "value": "dotted"
+    },
+    {
+     "id": "ap_csepw",
+     "value": 0.3
+    }
+   ],
+   "click": "apply_ap_crings"
+  },
+  {
+   "set": [
+    {
+     "id": "ap_ccentre",
+     "value": true
+    },
+    {
+     "id": "ap_ccenter",
+     "value": 0.14
+    },
+    {
+     "id": "ap_cdot",
+     "value": false
+    },
+    {
+     "id": "ap_cdotcol",
+     "value": "#334155"
+    },
+    {
+     "id": "ap_cdotalpha",
+     "value": 1
+    },
+    {
+     "id": "ap_cdotr",
+     "value": 0.04
+    }
+   ],
+   "click": "apply_ap_ccentre"
+  }
+ ],
+ "source": "upload"
+}

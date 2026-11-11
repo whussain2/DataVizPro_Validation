@@ -1,0 +1,586 @@
+{
+ "steps": [
+  {
+   "set": [],
+   "click": "upload_new_data"
+  },
+  {
+   "set": [
+    {
+     "id": "y_variable",
+     "value": "GrainYield_t_ha"
+    },
+    {
+     "id": "x_variable",
+     "value": "MaturityGroup"
+    },
+    {
+     "id": "upload_separator",
+     "value": "auto"
+    },
+    {
+     "id": "upload_rownames",
+     "value": "auto"
+    }
+   ],
+   "click": "generate_plot"
+  },
+  {
+   "set": [
+    {
+     "id": "export_width",
+     "value": 8
+    },
+    {
+     "id": "export_height",
+     "value": 6
+    }
+   ],
+   "click": "action_colors_grouping"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_fill_colors",
+     "value": true
+    },
+    {
+     "id": "enable_border_colors",
+     "value": false
+    },
+    {
+     "id": "fill_type",
+     "value": "Fill by Variable"
+    },
+    {
+     "id": "fill_color",
+     "value": "#3498DB"
+    },
+    {
+     "id": "fill_var",
+     "value": "MaturityGroup"
+    },
+    {
+     "id": "fill_style",
+     "value": "Manual"
+    },
+    {
+     "id": "fill_color_Late",
+     "value": "#009E73"
+    },
+    {
+     "id": "fill_color_Early",
+     "value": "#E69F00"
+    },
+    {
+     "id": "fill_color_Medium",
+     "value": "#56B4E9"
+    }
+   ],
+   "click": "apply_fill_colors"
+  },
+  {
+   "set": [
+    {
+     "id": "fill_color_Late",
+     "value": "#009E73"
+    },
+    {
+     "id": "fill_color_Early",
+     "value": "#E69F00"
+    },
+    {
+     "id": "fill_color_Medium",
+     "value": "#56B4E9"
+    }
+   ],
+   "click": "action_themes"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_base_theme",
+     "value": true
+    },
+    {
+     "id": "enable_grid_control",
+     "value": false
+    },
+    {
+     "id": "theme_bg",
+     "value": "#FFFFFF"
+    },
+    {
+     "id": "theme_panel",
+     "value": "#FFFFFF"
+    },
+    {
+     "id": "theme_select",
+     "value": "classic"
+    }
+   ],
+   "click": "apply_base_theme"
+  },
+  {
+   "set": [],
+   "click": "action_legend"
+  },
+  {
+   "set": [
+    {
+     "id": "fill_enable_title",
+     "value": false
+    },
+    {
+     "id": "fill_enable_text",
+     "value": false
+    },
+    {
+     "id": "fill_custom_labels",
+     "value": false
+    },
+    {
+     "id": "fill_enable_bg",
+     "value": false
+    },
+    {
+     "id": "fill_enable_layout",
+     "value": false
+    },
+    {
+     "id": "fill_enable_position",
+     "value": true
+    },
+    {
+     "id": "fill_position",
+     "value": "none"
+    }
+   ],
+   "click": "fill_apply_position"
+  },
+  {
+   "set": [],
+   "click": "action_appearance"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_appearance",
+     "value": false
+    },
+    {
+     "id": "enable_violin",
+     "value": false
+    },
+    {
+     "id": "enable_jitter",
+     "value": true
+    },
+    {
+     "id": "enable_axes",
+     "value": false
+    },
+    {
+     "id": "enable_rotate",
+     "value": false
+    },
+    {
+     "id": "enable_reference_lines",
+     "value": false
+    },
+    {
+     "id": "jitter_color",
+     "value": "#333333"
+    },
+    {
+     "id": "jitter_fill",
+     "value": "#333333"
+    },
+    {
+     "id": "jitter_shape",
+     "value": "21"
+    },
+    {
+     "id": "jitter_alpha",
+     "value": 0.6
+    },
+    {
+     "id": "jitter_width",
+     "value": 0.18
+    },
+    {
+     "id": "jitter_height",
+     "value": 0.02
+    },
+    {
+     "id": "jitter_size",
+     "value": 0.9
+    },
+    {
+     "id": "jitter_stroke",
+     "value": 0.8
+    },
+    {
+     "id": "jitter_seed",
+     "value": 42
+    }
+   ],
+   "click": "apply_jitter"
+  },
+  {
+   "set": [],
+   "click": "action_labels"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_main_title",
+     "value": false
+    },
+    {
+     "id": "enable_subtitle",
+     "value": false
+    },
+    {
+     "id": "enable_xaxis",
+     "value": true
+    },
+    {
+     "id": "enable_yaxis",
+     "value": false
+    },
+    {
+     "id": "x_label_color",
+     "value": "#000000"
+    },
+    {
+     "id": "xaxis_font_family",
+     "value": "sans"
+    },
+    {
+     "id": "xaxis_face",
+     "value": "plain"
+    },
+    {
+     "id": "x_label_size",
+     "value": 8
+    },
+    {
+     "id": "hide_x_label",
+     "value": false
+    },
+    {
+     "id": "label_x",
+     "value": "Maturity group"
+    }
+   ],
+   "click": "apply_xaxis"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_yaxis",
+     "value": true
+    },
+    {
+     "id": "y_label_color",
+     "value": "#000000"
+    },
+    {
+     "id": "yaxis_font_family",
+     "value": "sans"
+    },
+    {
+     "id": "yaxis_face",
+     "value": "plain"
+    },
+    {
+     "id": "y_label_size",
+     "value": 8
+    },
+    {
+     "id": "hide_y_label",
+     "value": false
+    },
+    {
+     "id": "label_y",
+     "value": "Grain~yield~(t~ha^{-1})"
+    }
+   ],
+   "click": "apply_yaxis"
+  },
+  {
+   "set": [],
+   "click": "action_axistext"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_xaxis_ticks",
+     "value": true
+    },
+    {
+     "id": "enable_x_axis_tick_customize",
+     "value": false
+    },
+    {
+     "id": "enable_yaxis_ticks",
+     "value": false
+    },
+    {
+     "id": "enable_y_axis_tick_customize",
+     "value": false
+    },
+    {
+     "id": "enable_x_level_order",
+     "value": false
+    },
+    {
+     "id": "enable_x_label_edit",
+     "value": false
+    },
+    {
+     "id": "x_tick_color",
+     "value": "#000000"
+    },
+    {
+     "id": "x_tick_face",
+     "value": "plain"
+    },
+    {
+     "id": "x_tick_size",
+     "value": 7
+    },
+    {
+     "id": "x_angle",
+     "value": 0
+    },
+    {
+     "id": "x_axis_margin",
+     "value": 5.5
+    },
+    {
+     "id": "hide_x_tick_labels",
+     "value": false
+    }
+   ],
+   "click": "apply_xaxis_ticks"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_x_axis_tick_customize",
+     "value": true
+    },
+    {
+     "id": "x_tick_color_line",
+     "value": "#000000"
+    },
+    {
+     "id": "x_tick_linetype",
+     "value": "solid"
+    },
+    {
+     "id": "x_tick_length",
+     "value": 0.1
+    },
+    {
+     "id": "x_tick_linewidth",
+     "value": 0.5
+    }
+   ],
+   "click": "apply_x_axis_ticks_customize"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_y_axis_tick_customize",
+     "value": true
+    },
+    {
+     "id": "y_tick_color_line",
+     "value": "#000000"
+    },
+    {
+     "id": "y_tick_linetype",
+     "value": "solid"
+    },
+    {
+     "id": "y_tick_length",
+     "value": 0.1
+    },
+    {
+     "id": "y_tick_linewidth",
+     "value": 0.5
+    }
+   ],
+   "click": "apply_y_axis_ticks_customize"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_x_level_order",
+     "value": true
+    },
+    {
+     "id": "x_level_order",
+     "value": "custom"
+    },
+    {
+     "id": "x_custom_order",
+     "value": "Early, Medium, Late"
+    }
+   ],
+   "click": "apply_x_level_order"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_yaxis_ticks",
+     "value": true
+    },
+    {
+     "id": "y_tick_color",
+     "value": "#000000"
+    },
+    {
+     "id": "y_tick_face",
+     "value": "plain"
+    },
+    {
+     "id": "y_tick_size",
+     "value": 7
+    },
+    {
+     "id": "y_angle",
+     "value": 0
+    },
+    {
+     "id": "y_axis_margin",
+     "value": 5.5
+    },
+    {
+     "id": "hide_y_tick_labels",
+     "value": false
+    }
+   ],
+   "click": "apply_yaxis_ticks"
+  },
+  {
+   "set": [],
+   "click": "action_statistics"
+  },
+  {
+   "set": [
+    {
+     "id": "stat_outliers",
+     "value": true
+    },
+    {
+     "id": "stat_mean_point",
+     "value": false
+    },
+    {
+     "id": "stat_median_point",
+     "value": false
+    },
+    {
+     "id": "stat_group_comparison",
+     "value": false
+    },
+    {
+     "id": "outlier_color",
+     "value": "#000000"
+    },
+    {
+     "id": "outlier_fill",
+     "value": "#FF0000"
+    },
+    {
+     "id": "outlier_shape",
+     "value": "21"
+    },
+    {
+     "id": "outlier_size",
+     "value": 2
+    },
+    {
+     "id": "outlier_alpha",
+     "value": 0
+    }
+   ],
+   "click": "apply_outliers"
+  },
+  {
+   "set": [],
+   "click": "action_faceting"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_facet_vars",
+     "value": true
+    },
+    {
+     "id": "enable_layout_config",
+     "value": false
+    },
+    {
+     "id": "enable_strip_theme",
+     "value": false
+    },
+    {
+     "id": "enable_additional_options",
+     "value": false
+    },
+    {
+     "id": "facet_var1",
+     "value": "Replication"
+    },
+    {
+     "id": "facet_var2",
+     "value": ""
+    }
+   ],
+   "click": "apply_facet_vars"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_strip_theme",
+     "value": true
+    },
+    {
+     "id": "strip_text_color",
+     "value": "#000000"
+    },
+    {
+     "id": "strip_bg_x",
+     "value": "#EFEFEF"
+    },
+    {
+     "id": "strip_bg_y",
+     "value": "#D0D0D0"
+    },
+    {
+     "id": "strip_border_color",
+     "value": "#CCCCCC"
+    },
+    {
+     "id": "strip_text_face",
+     "value": "plain"
+    },
+    {
+     "id": "strip_text_size",
+     "value": 8
+    },
+    {
+     "id": "strip_border_size",
+     "value": 0
+    }
+   ],
+   "click": "apply_strip_theme"
+  }
+ ],
+ "source": "upload"
+}

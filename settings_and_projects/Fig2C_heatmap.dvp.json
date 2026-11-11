@@ -1,0 +1,472 @@
+{
+ "steps": [
+  {
+   "set": [],
+   "click": "upload_new_data"
+  },
+  {
+   "set": [],
+   "click": "open_data_prep_dialog"
+  },
+  {
+   "set": [
+    {
+     "id": "prep_numeric_cols",
+     "value": [
+      "GrainYield_t_ha",
+      "Biomass_t_ha",
+      "HarvestIndex_pct",
+      "DaysToFlowering",
+      "DaysToMaturity",
+      "PlantHeight_cm",
+      "Tillers_perPlant",
+      "Spikes_perPlant",
+      "Grains_perSpike",
+      "ThousandGrainWeight_g",
+      "GrainLength_mm",
+      "GrainWidth_mm",
+      "Protein_pct",
+      "Starch_pct",
+      "Oil_pct",
+      "Chlorophyll_SPAD",
+      "NDVI",
+      "CanopyTemperature_C",
+      "WaterUseEfficiency",
+      "RootDepth_cm",
+      "RootBiomass_g",
+      "Lodging_pct",
+      "DiseaseSeverity_pct",
+      "DroughtToleranceScore",
+      "NitrogenUseEfficiency"
+     ]
+    },
+    {
+     "id": "prep_missing",
+     "value": "complete"
+    }
+   ],
+   "click": "cl_prep_select_all"
+  },
+  {
+   "set": [
+    {
+     "id": "prep_numeric_cols",
+     "value": [
+      "GrainYield_t_ha",
+      "Biomass_t_ha",
+      "HarvestIndex_pct",
+      "DaysToFlowering",
+      "DaysToMaturity",
+      "PlantHeight_cm",
+      "Tillers_perPlant",
+      "Spikes_perPlant",
+      "Grains_perSpike",
+      "ThousandGrainWeight_g",
+      "GrainLength_mm",
+      "GrainWidth_mm",
+      "Protein_pct",
+      "Starch_pct",
+      "Oil_pct",
+      "Chlorophyll_SPAD",
+      "NDVI",
+      "CanopyTemperature_C",
+      "WaterUseEfficiency",
+      "RootDepth_cm",
+      "RootBiomass_g",
+      "Lodging_pct",
+      "DiseaseSeverity_pct",
+      "DroughtToleranceScore",
+      "NitrogenUseEfficiency"
+     ]
+    }
+   ],
+   "click": "prep_apply"
+  },
+  {
+   "set": [],
+   "click": "regenerate_plot"
+  },
+  {
+   "set": [
+    {
+     "id": "cl_hm_scale",
+     "value": "column"
+    },
+    {
+     "id": "cl_hm_winsorize",
+     "value": "none"
+    },
+    {
+     "id": "export_width",
+     "value": 9
+    },
+    {
+     "id": "export_height",
+     "value": 7.6
+    }
+   ],
+   "click": "cl_apply_transform"
+  },
+  {
+   "set": [],
+   "click": "action_clustering"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_algo",
+     "value": false
+    },
+    {
+     "id": "enable_cl_row_clust",
+     "value": true
+    },
+    {
+     "id": "enable_cl_col_clust",
+     "value": false
+    },
+    {
+     "id": "enable_cl_cluster_labels",
+     "value": false
+    },
+    {
+     "id": "cl_row_split_mode",
+     "value": "k"
+    },
+    {
+     "id": "cl_row_gap",
+     "value": 1
+    },
+    {
+     "id": "cl_cluster_rows",
+     "value": true
+    },
+    {
+     "id": "cl_cluster_border_rows",
+     "value": false
+    },
+    {
+     "id": "cl_branch_rows",
+     "value": false
+    },
+    {
+     "id": "cl_k_rows",
+     "value": 4
+    }
+   ],
+   "click": "apply_cl_row_clust"
+  },
+  {
+   "set": [],
+   "click": "action_annotations"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_row_anno",
+     "value": true
+    },
+    {
+     "id": "enable_cl_col_anno",
+     "value": false
+    },
+    {
+     "id": "enable_cl_row_anno_display",
+     "value": false
+    },
+    {
+     "id": "enable_cl_col_anno_display",
+     "value": false
+    },
+    {
+     "id": "cl_row_anno_cols",
+     "value": [
+      "MaturityGroup"
+     ]
+    },
+    {
+     "id": "cl_row_tracks",
+     "value": []
+    }
+   ],
+   "click": "apply_cl_row_anno"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_row_anno_display",
+     "value": true
+    },
+    {
+     "id": "cl_row_anno_name_color",
+     "value": "#000000"
+    },
+    {
+     "id": "cl_row_track_color",
+     "value": "#8E44AD"
+    },
+    {
+     "id": "cl_row_anno_palette",
+     "value": "Dark2"
+    },
+    {
+     "id": "cl_row_anno_name_face",
+     "value": "plain"
+    },
+    {
+     "id": "cl_row_track_style",
+     "value": "bar"
+    },
+    {
+     "id": "cl_row_anno_bar_size",
+     "value": 6
+    },
+    {
+     "id": "cl_row_anno_name_size",
+     "value": 7
+    },
+    {
+     "id": "cl_row_track_size",
+     "value": 8
+    },
+    {
+     "id": "cl_row_anno_show_names",
+     "value": true
+    },
+    {
+     "id": "cl_row_anno_inbar",
+     "value": false
+    }
+   ],
+   "click": "apply_cl_row_anno_display"
+  },
+  {
+   "set": [],
+   "click": "action_axistext"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_rowlab",
+     "value": true
+    },
+    {
+     "id": "enable_cl_collab",
+     "value": false
+    },
+    {
+     "id": "cl_row_label_color",
+     "value": "#000000"
+    },
+    {
+     "id": "cl_row_label_face",
+     "value": "plain"
+    },
+    {
+     "id": "cl_row_names_side",
+     "value": "right"
+    },
+    {
+     "id": "cl_row_label_size",
+     "value": 9
+    },
+    {
+     "id": "cl_show_rownames",
+     "value": false
+    },
+    {
+     "id": "cl_row_truncate",
+     "value": false
+    }
+   ],
+   "click": "apply_cl_rowlab"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_collab",
+     "value": true
+    },
+    {
+     "id": "cl_col_label_color",
+     "value": "#000000"
+    },
+    {
+     "id": "cl_col_label_face",
+     "value": "plain"
+    },
+    {
+     "id": "cl_col_names_side",
+     "value": "bottom"
+    },
+    {
+     "id": "cl_col_label_size",
+     "value": 6
+    },
+    {
+     "id": "cl_col_label_angle",
+     "value": 90
+    },
+    {
+     "id": "cl_show_colnames",
+     "value": true
+    },
+    {
+     "id": "cl_col_truncate",
+     "value": false
+    }
+   ],
+   "click": "apply_cl_collab"
+  },
+  {
+   "set": [],
+   "click": "action_legend"
+  },
+  {
+   "set": [
+    {
+     "id": "cl_legend_type_choice",
+     "value": "COLORSCALE"
+    },
+    {
+     "id": "enable_cl_cs_title",
+     "value": true
+    },
+    {
+     "id": "enable_cl_cs_text",
+     "value": false
+    },
+    {
+     "id": "enable_cl_cs_rename",
+     "value": false
+    },
+    {
+     "id": "enable_cl_cs_breaks",
+     "value": false
+    },
+    {
+     "id": "enable_cl_cs_position",
+     "value": false
+    },
+    {
+     "id": "cl_cs_title_color",
+     "value": "#000000"
+    },
+    {
+     "id": "cl_cs_title_face",
+     "value": "bold"
+    },
+    {
+     "id": "cl_cs_title_size",
+     "value": 7
+    },
+    {
+     "id": "cl_legend_title",
+     "value": "z-score"
+    }
+   ],
+   "click": "apply_cl_cs_title"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_cs_text",
+     "value": true
+    },
+    {
+     "id": "cl_cs_labels_color",
+     "value": "#000000"
+    },
+    {
+     "id": "cl_cs_labels_family",
+     "value": "sans"
+    },
+    {
+     "id": "cl_cs_labels_face",
+     "value": "plain"
+    },
+    {
+     "id": "cl_cs_labels_size",
+     "value": 6
+    }
+   ],
+   "click": "apply_cl_cs_text"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_cs_position",
+     "value": true
+    },
+    {
+     "id": "cl_legend_position",
+     "value": "bottom"
+    }
+   ],
+   "click": "apply_cl_cs_position"
+  },
+  {
+   "set": [
+    {
+     "id": "cl_legend_type_choice",
+     "value": "ROWANNO"
+    },
+    {
+     "id": "enable_cl_row_leg_title",
+     "value": true
+    },
+    {
+     "id": "enable_cl_row_leg_text",
+     "value": false
+    },
+    {
+     "id": "enable_cl_row_leg_rename",
+     "value": false
+    },
+    {
+     "id": "enable_cl_row_leg_show",
+     "value": false
+    },
+    {
+     "id": "cl_row_leg_title_color",
+     "value": "#000000"
+    },
+    {
+     "id": "cl_row_leg_title_face",
+     "value": "bold"
+    },
+    {
+     "id": "cl_row_leg_title_size",
+     "value": 7
+    },
+    {
+     "id": "cl_row_leg_title_text",
+     "value": ""
+    }
+   ],
+   "click": "apply_cl_row_leg_title"
+  },
+  {
+   "set": [
+    {
+     "id": "enable_cl_row_leg_text",
+     "value": true
+    },
+    {
+     "id": "cl_row_leg_text_color",
+     "value": "#000000"
+    },
+    {
+     "id": "cl_row_leg_text_face",
+     "value": "plain"
+    },
+    {
+     "id": "cl_row_leg_text_size",
+     "value": 6
+    }
+   ],
+   "click": "apply_cl_row_leg_text"
+  }
+ ],
+ "source": "upload"
+}

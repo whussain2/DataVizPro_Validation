@@ -1,0 +1,630 @@
+{
+ "steps": [
+  {
+   "set": [],
+   "click": "use_sample_data"
+  },
+  {
+   "set": [],
+   "click": "hv_open_config"
+  },
+  {
+   "set": [
+    {
+     "id": "cfg_marker_cols",
+     "value": [
+      "SNP01",
+      "SNP02",
+      "SNP03",
+      "SNP04",
+      "SNP05",
+      "SNP06",
+      "SNP07",
+      "SNP08",
+      "SNP09",
+      "SNP10",
+      "SNP11",
+      "SNP12",
+      "SNP13",
+      "SNP14",
+      "SNP15",
+      "SNP16",
+      "SNP17",
+      "SNP18",
+      "SNP19",
+      "SNP20",
+      "SNP21",
+      "SNP22",
+      "SNP23",
+      "SNP24",
+      "SNP25",
+      "SNP26",
+      "SNP27",
+      "SNP28",
+      "SNP29",
+      "SNP30"
+     ]
+    },
+    {
+     "id": "hv_block_method",
+     "value": "gabriel"
+    },
+    {
+     "id": "hv_assoc_metric",
+     "value": "pvalue"
+    },
+    {
+     "id": "hv_assoc_test",
+     "value": "allelic"
+    },
+    {
+     "id": "cfg_maf_thr",
+     "value": 0.05
+    },
+    {
+     "id": "cfg_miss_thr",
+     "value": 0.2
+    },
+    {
+     "id": "hv_gabriel_low_ci",
+     "value": 0.7
+    },
+    {
+     "id": "hv_spine_dp",
+     "value": 0.8
+    },
+    {
+     "id": "cfg_marker_method",
+     "value": "names"
+    },
+    {
+     "id": "hv_ld_measure",
+     "value": "r2"
+    },
+    {
+     "id": "hv_assoc_source",
+     "value": "provided"
+    },
+    {
+     "id": "cfg_remove_mono",
+     "value": true
+    },
+    {
+     "id": "cfg_marker_from",
+     "value": 1
+    },
+    {
+     "id": "cfg_marker_to",
+     "value": 31
+    },
+    {
+     "id": "hv_max_dist_kb",
+     "value": 500
+    },
+    {
+     "id": "hv_assoc_alpha",
+     "value": 0.05
+    },
+    {
+     "id": "hv_assoc_ylab",
+     "value": ""
+    },
+    {
+     "id": "cfg_snp_range",
+     "value": [
+      1,
+      30
+     ]
+    },
+    {
+     "id": "cfg_meta_col_marker",
+     "value": "marker"
+    },
+    {
+     "id": "cfg_meta_col_pos",
+     "value": "pos_bp"
+    },
+    {
+     "id": "cfg_meta_col_gene",
+     "value": "nearest_gene"
+    },
+    {
+     "id": "cfg_meta_col_score",
+     "value": "gwas_p"
+    }
+   ],
+   "click": "cfg_apply"
+  },
+  {
+   "set": [],
+   "click": "hv_generate"
+  },
+  {
+   "set": [
+    {
+     "id": "download_width",
+     "value": 11.9
+    },
+    {
+     "id": "download_height",
+     "value": 14.2
+    }
+   ],
+   "click": "action_appearance"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_assoc_track",
+     "value": false
+    },
+    {
+     "id": "en_hv_tri",
+     "value": false
+    },
+    {
+     "id": "en_hv_blocks",
+     "value": false
+    },
+    {
+     "id": "en_hv_snp",
+     "value": true
+    },
+    {
+     "id": "en_hv_spacing",
+     "value": false
+    },
+    {
+     "id": "hv_snp_stem_color",
+     "value": "#475569"
+    },
+    {
+     "id": "hv_snp_pt_fill",
+     "value": "#3B82F6"
+    },
+    {
+     "id": "hv_snp_pt_color",
+     "value": "#1D4ED8"
+    },
+    {
+     "id": "hv_snp_pt_shape",
+     "value": "21"
+    },
+    {
+     "id": "hv_snp_stem_width",
+     "value": 0.5
+    },
+    {
+     "id": "hv_snp_pt_size",
+     "value": 1.4
+    },
+    {
+     "id": "hv_show_snp_labels",
+     "value": true
+    },
+    {
+     "id": "hv_snp_lab_color",
+     "value": "#1F2937"
+    },
+    {
+     "id": "hv_snp_lab_face",
+     "value": "plain"
+    },
+    {
+     "id": "hv_snp_lab_family",
+     "value": "sans"
+    },
+    {
+     "id": "hv_snp_lab_size",
+     "value": 2.2
+    }
+   ],
+   "click": "apply_hv_snp"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_blocks",
+     "value": true
+    },
+    {
+     "id": "hv_wedge_show",
+     "value": true
+    },
+    {
+     "id": "hv_ribbon_show",
+     "value": true
+    },
+    {
+     "id": "hv_blk_lab_show",
+     "value": true
+    },
+    {
+     "id": "hv_wedge_color",
+     "value": "#111827"
+    },
+    {
+     "id": "hv_wedge_width",
+     "value": 0.6
+    },
+    {
+     "id": "hv_ribbon_cmode",
+     "value": "r2"
+    },
+    {
+     "id": "hv_ribbon_width",
+     "value": 3
+    },
+    {
+     "id": "hv_blk_lab_color",
+     "value": "#1F2937"
+    },
+    {
+     "id": "hv_blk_lab_size",
+     "value": 2.3
+    },
+    {
+     "id": "hv_blk_lab_layout",
+     "value": "stack"
+    }
+   ],
+   "click": "apply_hv_blocks"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_assoc_track",
+     "value": true
+    },
+    {
+     "id": "hv_show_assoc_track",
+     "value": true
+    },
+    {
+     "id": "hv_assoc_stem_color",
+     "value": "#CBD5E1"
+    },
+    {
+     "id": "hv_assoc_col_lo",
+     "value": "#9CA3AF"
+    },
+    {
+     "id": "hv_assoc_col_hi",
+     "value": "#DC2626"
+    },
+    {
+     "id": "hv_assoc_stem_width",
+     "value": 0.5
+    },
+    {
+     "id": "hv_assoc_point_size",
+     "value": 1.4
+    },
+    {
+     "id": "hv_assoc_thr_show",
+     "value": true
+    },
+    {
+     "id": "hv_assoc_thr_color",
+     "value": "#DC2626"
+    },
+    {
+     "id": "hv_assoc_thr_type",
+     "value": "dashed"
+    },
+    {
+     "id": "hv_assoc_thr_width",
+     "value": 0.6
+    },
+    {
+     "id": "hv_assoc_thr_auto",
+     "value": true
+    }
+   ],
+   "click": "apply_hv_assoc_track"
+  },
+  {
+   "set": [],
+   "click": "action_labels"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_title",
+     "value": true
+    },
+    {
+     "id": "en_hv_subtitle",
+     "value": false
+    },
+    {
+     "id": "hv_title_color",
+     "value": "#1F2937"
+    },
+    {
+     "id": "hv_title_face",
+     "value": "bold"
+    },
+    {
+     "id": "hv_title_hjust",
+     "value": "0.5"
+    },
+    {
+     "id": "hv_title_size",
+     "value": 9
+    },
+    {
+     "id": "hv_title",
+     "value": " "
+    }
+   ],
+   "click": "apply_hv_title"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_subtitle",
+     "value": true
+    },
+    {
+     "id": "hv_subtitle_show",
+     "value": false
+    },
+    {
+     "id": "hv_subtitle_color",
+     "value": "#64748B"
+    },
+    {
+     "id": "hv_subtitle_face",
+     "value": "plain"
+    },
+    {
+     "id": "hv_subtitle_hjust",
+     "value": "0.5"
+    },
+    {
+     "id": "hv_subtitle_size",
+     "value": 9.5
+    },
+    {
+     "id": "hv_subtitle",
+     "value": ""
+    }
+   ],
+   "click": "apply_hv_subtitle"
+  },
+  {
+   "set": [],
+   "click": "action_axistext"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_xaxis",
+     "value": true
+    },
+    {
+     "id": "en_hv_yaxis",
+     "value": false
+    },
+    {
+     "id": "hv_xtick_hide",
+     "value": true
+    },
+    {
+     "id": "hv_xtick_color",
+     "value": "#374151"
+    },
+    {
+     "id": "hv_xtick_face",
+     "value": "plain"
+    },
+    {
+     "id": "hv_xtick_size",
+     "value": 6
+    },
+    {
+     "id": "hv_xtick_angle",
+     "value": 90
+    }
+   ],
+   "click": "apply_hv_xaxis"
+  },
+  {
+   "set": [
+    {
+     "id": "download_width",
+     "value": 11.9
+    },
+    {
+     "id": "download_height",
+     "value": 13.3
+    },
+    {
+     "id": "en_hv_yaxis",
+     "value": true
+    },
+    {
+     "id": "hv_ylab_color",
+     "value": "#374151"
+    },
+    {
+     "id": "hv_ylab_face",
+     "value": "plain"
+    },
+    {
+     "id": "hv_ylab_size",
+     "value": 7
+    },
+    {
+     "id": "hv_ytick_hide",
+     "value": false
+    },
+    {
+     "id": "hv_ylab_text",
+     "value": ""
+    },
+    {
+     "id": "hv_ytick_color",
+     "value": "#374151"
+    },
+    {
+     "id": "hv_ytick_face",
+     "value": "plain"
+    },
+    {
+     "id": "hv_ytick_size",
+     "value": 6
+    }
+   ],
+   "click": "apply_hv_yaxis"
+  },
+  {
+   "set": [],
+   "click": "action_themes"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_ideo",
+     "value": true
+    },
+    {
+     "id": "en_hv_gene",
+     "value": false
+    },
+    {
+     "id": "en_hv_conn",
+     "value": false
+    },
+    {
+     "id": "hv_show_ideo",
+     "value": true
+    },
+    {
+     "id": "hv_ideo_bar_color",
+     "value": "#E2E8F0"
+    },
+    {
+     "id": "hv_ideo_border",
+     "value": "#94A3B8"
+    },
+    {
+     "id": "hv_ideo_tick_color",
+     "value": "#1E293B"
+    },
+    {
+     "id": "hv_ideo_bar_height",
+     "value": 0.06
+    },
+    {
+     "id": "hv_ideo_border_w",
+     "value": 0.2
+    },
+    {
+     "id": "hv_ideo_tick_width",
+     "value": 0.5
+    },
+    {
+     "id": "hv_scale_show",
+     "value": true
+    },
+    {
+     "id": "hv_scale_color",
+     "value": "#475569"
+    },
+    {
+     "id": "hv_scale_lab_color",
+     "value": "#475569"
+    },
+    {
+     "id": "hv_scale_span_fill",
+     "value": "#F1F5F9"
+    },
+    {
+     "id": "hv_scale_width",
+     "value": 0.5
+    },
+    {
+     "id": "hv_scale_lab_size",
+     "value": 2
+    }
+   ],
+   "click": "apply_hv_ideo"
+  },
+  {
+   "set": [
+    {
+     "id": "en_hv_gene",
+     "value": true
+    },
+    {
+     "id": "hv_gene_show",
+     "value": true
+    },
+    {
+     "id": "hv_gene_fill",
+     "value": "#10B981"
+    },
+    {
+     "id": "hv_gene_color",
+     "value": "#047857"
+    },
+    {
+     "id": "hv_gene_lab_color",
+     "value": "#065F46"
+    },
+    {
+     "id": "hv_gene_style",
+     "value": "arrow"
+    },
+    {
+     "id": "hv_gene_lab_side",
+     "value": "right"
+    },
+    {
+     "id": "hv_gene_lab_face",
+     "value": "bold.italic"
+    },
+    {
+     "id": "hv_gene_width",
+     "value": 0.55
+    },
+    {
+     "id": "hv_gene_alpha",
+     "value": 1
+    },
+    {
+     "id": "hv_gene_track_h",
+     "value": 0.15
+    },
+    {
+     "id": "hv_gene_lab_size",
+     "value": 2.4
+    },
+    {
+     "id": "hv_gene_conn_show",
+     "value": true
+    },
+    {
+     "id": "hv_gene_conn_color",
+     "value": "#10B981"
+    },
+    {
+     "id": "hv_gene_point_to",
+     "value": "region"
+    },
+    {
+     "id": "hv_gene_conn_type",
+     "value": "solid"
+    },
+    {
+     "id": "hv_gene_conn_width",
+     "value": 0.5
+    }
+   ],
+   "click": "apply_hv_gene"
+  }
+ ],
+ "source": "sample"
+}
